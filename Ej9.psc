@@ -7,7 +7,7 @@ Algoritmo Ej9
 	Leer cad2
 	lon <- Longitud(cad2)
 	Para i<-1 Hasta lon Hacer
-		Si Minusculas(Subcadena(cad1, i, i + Longitud(cad2) - 1)) = Minusculas(cad2) Entonces
+		Si Subcadena(cad1, i, i + Longitud(cad2) - 1) = cad2 Entonces
             encontrado <- Verdadero
             Escribir "La subcadena se encuentra en la cadena principal."
 	FinSi
