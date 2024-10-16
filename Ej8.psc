@@ -11,5 +11,5 @@ Algoritmo Ej8
 			alter<-Concatenar(alter,Mayusculas(SubCadena(cad,i,i)))
 		Fin Si
 	Fin Para
-	Escribir "La palabra" alter
+	Escribir "La palabra " alter
 FinAlgoritmo
